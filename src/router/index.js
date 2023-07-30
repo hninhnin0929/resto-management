@@ -37,7 +37,7 @@ export default new Router({
       component: Add
     },
     {
-      path: '/update',
+      path: '/update/:id',
       name: 'Update',
       component: Update
     }
