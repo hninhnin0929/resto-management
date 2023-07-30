@@ -45,11 +45,17 @@ export default {
             console.warn("result = ", result);
         }
     },
-    mounted(){
+    async mounted(){
         let user = localStorage.getItem('user-info');
         if(!user){
             this.$router.push({name: 'SignUp'})
         }
+        console.warn(this.$route.params.id);
+        const result = await axios.get(
+            'http://localhost:3000/restaurant/'+this.$route.params.id
+        )
+        console.warn("result = ", result.data);
+        this.restaurant = result.data;
     }
 }
 </script>
