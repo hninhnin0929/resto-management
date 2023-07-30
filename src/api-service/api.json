@@ -35,6 +35,18 @@
       "email": "test@gmail.com",
       "password": "123",
       "id": 6
+    },
+    {
+      "name": "test1",
+      "email": "test1@gmail.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "home",
+      "email": "home@gmail.com",
+      "password": "123",
+      "id": 8
     }
   ]
 }
