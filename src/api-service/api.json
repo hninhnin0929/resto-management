@@ -67,6 +67,24 @@
       "name": "KFC",
       "contact": 22222,
       "address": "KFC sector 20"
+    },
+    {
+      "name": "RCB restaurant",
+      "address": "Delhi, rohini",
+      "contact": "123431",
+      "id": 4
+    },
+    {
+      "name": "Loterria",
+      "address": "Cheno Station",
+      "contact": "987934",
+      "id": 5
+    },
+    {
+      "name": "Starry",
+      "address": "Gangdong",
+      "contact": "293927397",
+      "id": 6
     }
   ]
 }

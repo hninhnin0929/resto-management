@@ -2,7 +2,7 @@
     <div>
         <img class="logo" src="../assets/res_logo.png">
         <h1>Login</h1>
-        <div class="register">
+        <div class="login">
             <input type="text" v-model="email" placeholder="Enter Email" />
             <input type="text" v-model="password" placeholder="Enter Password" />
             <button v-on:click="login">Login</button>
