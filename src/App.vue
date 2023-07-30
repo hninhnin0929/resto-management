@@ -22,6 +22,10 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+body {
+  padding: 0;
+  margin: 0;
+}
 .logo{
     width: 100px
 }
