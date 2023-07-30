@@ -4,6 +4,8 @@ import Home from '@/components/Home'
 import SignUp from '@/components/SignUp'
 import Login from '@/components/Login'
 import Header from '@/components/Header'
+import Add from '@/components/Add'
+import Update from '@/components/Update'
 
 Vue.use(Router)
 
@@ -25,9 +27,19 @@ export default new Router({
       component: Login
     },
     {
-      path: 'header',
+      path: '/header',
       name: 'Header',
       component: Header
+    },
+    {
+      path: '/add',
+      name: 'Add',
+      component: Add
+    },
+    {
+      path: '/update',
+      name: 'Update',
+      component: Update
     }
   ]
 })
