@@ -32,14 +32,14 @@ export default {
     methods: {
         async updateRestaurant(){
             console.warn(this.restaurant);
-            const result = await axios.post(
-                "http://localhost:3000/restaurant", {
+            const result = await axios.put(
+                "http://localhost:3000/restaurant/"+this.$route.params.id, {
                     name: this.restaurant.name,
                     address: this.restaurant.address,
                     contact: this.restaurant.contact
                 }
             );
-            if(result.status == 201){
+            if(result.status == 200){
                 this.$router.push({name: 'Home'})
             }
             console.warn("result = ", result);
